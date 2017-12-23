@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Ders</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  </head>
+
+  <body>
+    <%= render 'shared/navbar'%>
+    <%= render 'shared/jumbotron'%>
+  
+<div class="container-fluid main-container">
+<div class="col-md-12 content">
+  <%= yield %>
+</div>
+
+</div>
+
+<%= render 'shared/footer'%>
+  </body>
+</html>

@@ -1,0 +1,57 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, or any plugin's
+ * vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any other CSS/SCSS
+ * files in this directory. Styles in this file should be added after the last require_* statement.
+ * It is generally better to create a new file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+ @import "bootstrap-sprockets";
+ @import "bootstrap";
+
+
+ .logo-icon {
+   width: 28px;  // 14px * 2
+   height: 28px; // 14px * 2
+   background-size: 938px 318px;  // original dimensions * 2
+   background-position: -624px -48px;  // original position * 2
+ }
+ 
+ body {
+font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+font-size: 14px;
+line-height: 1.42857143;    
+color: #0a0909;
+}
+.row {
+margin-right: -15px;
+margin-left: -15px;
+}
+.marketing .col-lg-4 {
+margin-bottom: 20px;
+text-align: center;
+}
+
+.jumbotron {
+background: #000 url("unnamed.jpg");
+color: #FFF;
+border-radius: 0px;
+overflow: hidden;
+height: 400px;
+
+}
+
+.h1 small {
+font-size: 24px;
+color: black;
+text-align: center;
+}
+
+ 
